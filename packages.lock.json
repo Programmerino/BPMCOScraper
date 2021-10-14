@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETCoreApp,Version=v5.0": {
+      "FSharp.Control.Reactive": {
+        "type": "Direct",
+        "requested": "[5.0.2, )",
+        "resolved": "5.0.2",
+        "contentHash": "XyPAAe1xnKVF5HRMaRBdrXPkj7lPvx3sy2j0xb1cHZCv8Nrvyzb/EtbUZU/QowiRB5Oi2DTP/rChi3REUOeJRA==",
+        "dependencies": {
+          "FSharp.Core": "4.7.2",
+          "System.Reactive": "5.0.0"
+        }
+      },
+      "FSharp.Core": {
+        "type": "Direct",
+        "requested": "[5.0.0, )",
+        "resolved": "5.0.0",
+        "contentHash": "iHoYXA0VaSQUONGENB1aVafjDDZDZpwu39MtaRCTrmwFW/cTcK0b2yKNVYneFHJMc3ChtsSoM9lNtJ1dYXkHfA=="
+      },
+      "FSharp.Data": {
+        "type": "Direct",
+        "requested": "[4.2.3, )",
+        "resolved": "4.2.3",
+        "contentHash": "GNghvgsxu8Ea9beKOgc6VTm3UnixPSlf/S+BPWNCsifSzNevvlnoTKjXVVQfHOtKLbbGGbqQxMKuV0GaE6oXYA==",
+        "dependencies": {
+          "FSharp.Core": "4.7.2"
+        }
+      },
+      "FSharp.Text.RegexProvider": {
+        "type": "Direct",
+        "requested": "[2.1.0, )",
+        "resolved": "2.1.0",
+        "contentHash": "/DWiEO3TZwssZ3rz75JqOfNKank6NT9cmcgqIw6hmWOeQgJ4nC9TaKcfG/iVSloE/VZAXaDYfThMlFIbanN/5w==",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        }
+      },
+      "FSharpPlus": {
+        "type": "Direct",
+        "requested": "[1.2.2, )",
+        "resolved": "1.2.2",
+        "contentHash": "YzWFuAua/OCevT05FoWSInP3i6DGAwRqyJd0DtFWSisPI6LAqCMTWaj5hT4BDLDabvricVZ5VD/FWfSNubL6Gg==",
+        "dependencies": {
+          "FSharp.Core": "4.6.2"
+        }
+      },
+      "Microsoft.DotNet.ILCompiler.LLVM": {
+        "type": "Direct",
+        "requested": "[6.0.0-preview.2.21171.2, )",
+        "resolved": "6.0.0-preview.2.21171.2",
+        "contentHash": "tAGlW5/3iuiu/2fH1qbTzJaqAkXa3FsTosUB3DQSAR4AF7HZYrbqOld9lsSoiz9btgXu7TNpgfZvFA2iyiOYiA=="
+      },
+      "System.Reactive": {
+        "type": "Transitive",
+        "resolved": "5.0.0",
+        "contentHash": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ=="
+      }
+    },
+    ".NETCoreApp,Version=v5.0/linux-x64": {
+      "Microsoft.DotNet.ILCompiler.LLVM": {
+        "type": "Direct",
+        "requested": "[6.0.0-preview.2.21171.2, )",
+        "resolved": "6.0.0-preview.2.21171.2",
+        "contentHash": "tAGlW5/3iuiu/2fH1qbTzJaqAkXa3FsTosUB3DQSAR4AF7HZYrbqOld9lsSoiz9btgXu7TNpgfZvFA2iyiOYiA==",
+        "dependencies": {
+          "runtime.linux-x64.Microsoft.DotNet.ILCompiler.LLVM": "6.0.0-preview.2.21171.2"
+        }
+      },
+      "runtime.linux-x64.Microsoft.DotNet.ILCompiler.LLVM": {
+        "type": "Transitive",
+        "resolved": "6.0.0-preview.2.21171.2",
+        "contentHash": "vRUVjU23G37z4TnL0sPgD18i0xuPO0XbTKdo02Ctpcl4z0FW5TNrI4a6nkxbRoUGMO1sFIaVYre3GEl5wMm0Hw=="
+      }
+    }
+  }
+}
